@@ -20,7 +20,6 @@ public class CalendarTests {
         Configuration.browser = "chrome";
         Configuration.browserSize = "1200x800";
         Configuration.pageLoadStrategy = "eager";
-        System.setProperty("webdriver.chrome.driver", "/home/user/chromedriver");
     }
 
     @BeforeEach
